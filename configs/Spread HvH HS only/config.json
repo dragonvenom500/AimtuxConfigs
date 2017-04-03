@@ -31,7 +31,7 @@
                "Enabled" : true
             },
             "AutoScope" : {
-               "Enabled" : false
+               "Enabled" : true
             },
             "AutoShoot" : {
                "Enabled" : true
@@ -41,7 +41,7 @@
                "minDamage" : 5
             },
             "AutoWall" : {
-               "Bones" : [ true, true, true, true, true, true ],
+               "Bones" : [ true, false, false, false, false, false ],
                "Enabled" : true,
                "Value" : 7.2330002784729004
             },
@@ -101,12 +101,12 @@
       },
       "Pitch" : {
          "enabled" : true,
-         "type" : 0
+         "type" : 1
       },
       "Yaw" : {
          "antiResolver" : true,
          "enabled" : true,
-         "type" : 11,
+         "type" : 3,
          "type_fake" : 0
       }
    },
@@ -241,7 +241,7 @@
       },
       "Filters" : {
          "allies" : true,
-         "bomb" : false,
+         "bomb" : true,
          "chickens" : false,
          "defusers" : false,
          "enemies" : true,
@@ -350,17 +350,17 @@
       },
       "Info" : {
          "clan" : false,
-         "defusing" : false,
-         "flashed" : false,
-         "grabbing_hostage" : false,
-         "has_defuser" : false,
+         "defusing" : true,
+         "flashed" : true,
+         "grabbing_hostage" : true,
+         "has_defuser" : true,
          "health" : false,
          "location" : false,
          "name" : true,
-         "planting" : false,
+         "planting" : true,
          "rank" : false,
-         "reloading" : false,
-         "rescuing" : false,
+         "reloading" : true,
+         "rescuing" : true,
          "scoped" : true,
          "steam_id" : false,
          "weapon" : true
@@ -576,7 +576,7 @@
    },
    "FakeLag" : {
       "adaptive" : false,
-      "enabled" : true,
+      "enabled" : false,
       "value" : 14
    },
    "GrenadeHelper" : {

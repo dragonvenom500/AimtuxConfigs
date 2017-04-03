@@ -31,7 +31,7 @@
                "Enabled" : true
             },
             "AutoScope" : {
-               "Enabled" : false
+               "Enabled" : true
             },
             "AutoShoot" : {
                "Enabled" : true
@@ -101,7 +101,7 @@
       },
       "Pitch" : {
          "enabled" : true,
-         "type" : 0
+         "type" : 1
       },
       "Yaw" : {
          "antiResolver" : true,
@@ -576,7 +576,7 @@
    },
    "FakeLag" : {
       "adaptive" : false,
-      "enabled" : true,
+      "enabled" : false,
       "value" : 14
    },
    "GrenadeHelper" : {

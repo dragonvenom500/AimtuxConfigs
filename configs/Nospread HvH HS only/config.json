@@ -779,7 +779,7 @@
       "enabled" : false
    },
    "ShowSpectators" : {
-      "enabled" : false
+      "enabled" : true
    },
    "SkinChanger" : {
       "Models" : {
