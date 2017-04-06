@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# By Daniel Jones
+# By dragonvenom500
 
 if [ ! -d ~/.config/AimTux ]; then
     mkdir ~/.config/AimTux/
